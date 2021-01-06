@@ -5,8 +5,8 @@ import Children_example_component from './Component/Children_Example';
 import Render_example_component from './Component/Render_Data_Example';
 import './App.css';
 import PropTypes from 'prop-types'; 
+import Form_example from './Component/Forms_example/Forms'
 import Event_handling_example from './Component/jsx_and_Handling_event_example/Event_handling_example';
-
 
 
 Classcomponent.propTypes={
@@ -22,11 +22,13 @@ Functioncomponent.propTypes={
 function App() {
   return (
     <div>
-      <Functioncomponent name="kavish"/>
+      {/* <Functioncomponent name="kavish"/>
       <Classcomponent name="Varshil"/>
       <Children_example_component>
         Hello from childern
       </Children_example_component>
+      <Render_example_component/> */}
+      <Form_example/>
       <Render_example_component/>
       <Event_handling_example/>
     </div>
