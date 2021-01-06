@@ -5,6 +5,7 @@ import Children_example_component from './Component/Children_Example';
 import Render_example_component from './Component/Render_Data_Example';
 import './App.css';
 import PropTypes from 'prop-types'; 
+import Form_example from './Component/Forms_example/Forms'
 
 Classcomponent.propTypes={
   name:PropTypes.string,
@@ -19,12 +20,13 @@ Functioncomponent.propTypes={
 function App() {
   return (
     <div>
-      <Functioncomponent name="kavish"/>
+      {/* <Functioncomponent name="kavish"/>
       <Classcomponent name="Varshil"/>
       <Children_example_component>
         Hello from childern
       </Children_example_component>
-      <Render_example_component/>
+      <Render_example_component/> */}
+      <Form_example/>
 
     </div>
   );
